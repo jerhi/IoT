@@ -1,0 +1,11 @@
+Ensin git repo githubiin, siihen liittyvä readme ja nopeahko kuvailu (git 1p). Muistikortti läppäriin ja ubuntulla dd rasbianin imagesta(sudo dd
+if=/image.img of=dev/mmcbkl0 bs=128k)(asennus ja konffi 2p). Raspin boottaus, näppiskielen vaihto, salasanan asettaminen rootille. 
+Internetin jakaminen läppäriltä ethernet-piuhalla(ip: 10.42.0.105). Wlanin toimivuuden toteaminen, tilan laajennus, kieli/sijaintiasetukset, pakettien hakua ja päivittelyä(asennus ja konffi 5p).
+
+Ssh yhteys komennolla "ssh pi@10.42.0.105" jonka jälkeen rootin salasanan syöttö(ssh avaimilla kulkeminen jatkossa). Tightvncserverin asennus ja käyttöönotto(ensin ns. klassisen työpöydän sulkeminen 
+komennolla 'sudo service lightdm stop' ja vnc serverin käynnistys komennolla 'sudo vncserver :0 -geometry 1280x720'), etäyhteys ubuntussa valmiina olevalla reminalla.(etäkäyttö 2p)
+
+demo1.txt kirjoitus ssh yhteyden kautta terminal emacsilla, mikä selittää jos on outoja rivinvaihtoja, uppaus gittiin ja palautus korppiin. (git 2p)
+ 
+
+ 
